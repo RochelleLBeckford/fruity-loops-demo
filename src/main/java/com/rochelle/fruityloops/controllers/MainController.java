@@ -13,6 +13,7 @@ public class MainController {
     @RequestMapping("/")
     public String index(Model model) {
         // sending this down to our front
+        // create array list like this and initialize the array list
         ArrayList<Item> fruits = new ArrayList<Item>();
         fruits.add(new Item("Kiwi", 1.5));
         fruits.add(new Item("Mango", 2.0));
